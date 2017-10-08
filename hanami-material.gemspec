@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "hanami/material/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = 'Hanami-material'
+  spec.name          = 'hanami-material'
   spec.version       = Hanami::Material::VERSION
   spec.authors       = ['Naumenko Nikita']
   spec.email         = ['naumenkoniki@gmail.com']
