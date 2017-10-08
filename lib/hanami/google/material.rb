@@ -6,10 +6,8 @@ module Hanami
     module Material
       class << self
         def load!
-          Hanami::Assets.sources << assets_path
+          ::Hanami::Assets.sources << assets_path
         end
-
-        private
 
         def gem_path
           @gem_path ||= File.expand_path '../..', File.dirname(__FILE__)
