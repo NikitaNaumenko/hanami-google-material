@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "hanami/google/material"
+require "hanami/material"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

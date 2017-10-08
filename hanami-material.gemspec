@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "hanami/google/material/version"
+require "hanami/material/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = 'hanami-google-material'
-  spec.version       = Hanami::Google::Material::VERSION
+  spec.name          = 'Hanami-material'
+  spec.version       = Hanami::Material::VERSION
   spec.authors       = ['Naumenko Nikita']
   spec.email         = ['naumenkoniki@gmail.com']
 
   spec.summary       = %q{ Google material library for Hanami.}
   spec.description   = %q{ Google material library for Hanami }
-  spec.homepage      = 'https://github.com/NikitaNaumenko/hanami-google-material'
+  spec.homepage      = 'https://github.com/NikitaNaumenko/hanami-material'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
